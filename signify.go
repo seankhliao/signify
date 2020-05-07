@@ -12,8 +12,9 @@ import (
 	"io"
 	"strings"
 
+	"crypto/ed25519"
+
 	"github.com/ebfe/bcrypt_pbkdf"
-	"golang.org/x/crypto/ed25519"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/agl/ed25519"
+	"crypto/ed25519"
 )
 
 type testfile struct {
